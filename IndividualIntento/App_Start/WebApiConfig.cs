@@ -19,6 +19,7 @@ namespace IndividualIntento
 
             // Rutas de Web API
             config.MapHttpAttributeRoutes();
+            config.EnableCors();//CORSsss
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
